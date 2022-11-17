@@ -5,13 +5,20 @@ import "./styles/main.scss";
 import React from "react";
 import Intro from "./components/Intro";
 import Navigation from "./components/Navigation";
+import { attractions } from "./data/attractions";
+import Attraction from "./components/Attraction";
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app min-vh-100 ph4 flex flex-column">
       <header className="app-header">
         <Navigation />
         <Intro />
+        <div className="flex flex-wrap container">
+          {attractions.map((attraction) => {
+            return <Attraction {...attraction} key={attraction.title} />;
+          })}
+        </div>
       </header>
     </div>
   );

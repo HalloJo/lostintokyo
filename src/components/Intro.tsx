@@ -2,7 +2,7 @@ import Highlight from "./Highlight";
 
 const Intro = () => {
   return (
-    <div className="m-auto-ns f4 f3-m f2-l tc w-80-l normal">
+    <div className="m-auto-ns f4 f3-m f2-l tc w-80-l normal flex flex-wrap items-center">
       <div className="mb3 mb4-ns">
         <Highlight color="aqua">Lost in Tokyo</Highlight> is a directory of fun
         places to see, play in and <Highlight color="yellow">explore</Highlight>
