@@ -1,15 +1,18 @@
 import React from "react";
 import logo from "./assets/logo.svg";
 import "./styles/App.scss";
+import "./styles/globals.scss";
+import "./styles/tachyons.scss";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="app">
+      <header className="app-header">
+        <img src={logo} className="app-logo" alt="logo" />
+        <h1>Lost in Tokyo</h1>
       </header>
     </div>
   );
-}
+};
 
 export default App;
