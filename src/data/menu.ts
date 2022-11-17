@@ -1,11 +1,13 @@
-type MenuItem = {
-  children: string,
+export type MenuItem = {
+  children?: string,
   logo?: boolean,
-  className: string,
-  href: string,
+  className?: string,
+  href?: string,
 }
 
-export const menu:MenuItem[] = [
+export type Menu = MenuItem[]
+
+export const menu:Menu = [
   {
     children: 'Lost in Toyko',
     logo: true,
