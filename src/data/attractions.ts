@@ -1,3 +1,10 @@
+import one from "../assets/image_1.jpg";
+import two from "../assets/image_2.jpg";
+import three from "../assets/image_3.jpg";
+import gaze from "../assets/image_4.jpg";
+import peach from "../assets/image_5.jpg";
+import avocado from "../assets/image_6.jpg";
+
 type Attraction = {
   title: string,
   description: string,
