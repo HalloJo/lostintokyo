@@ -87,5 +87,13 @@ export const attractions:Attraction[] = [
     link: 'http://www.ghibli-museum.jp/en/',
     image: nine,
     className: 'w-third-l ml-auto-l'
+  },
+  {
+    title: 'Big Love Records',
+    description:
+      'Located in Harajuku, Big Love Records is aptly named, as it is run by husband and wife Masashi Naka and Haruka Hirata. Every vinyl, cassette, CD and zine in the store is picked by Naka and Haruka because they love it.',
+    link: '#',
+    image: ten,
+    className: 'w-third-l ml-auto-l'
   }
 ];
