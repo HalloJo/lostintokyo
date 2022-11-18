@@ -7,6 +7,7 @@ import Intro from "./components/Intro";
 import Navigation from "./components/Navigation";
 import { attractions } from "./data/attractions";
 import Attraction from "./components/Attraction";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           })}
         </div>
       </header>
+      <Footer />
     </div>
   );
 };
